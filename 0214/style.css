@@ -1,0 +1,66 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+
+body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: pink;
+    align-items: center;
+}
+
+#wrapper{
+    height: 400px;
+    width: 800px;
+    background-color: rgb(248, 248, 245);
+    position: relative;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#nobutton{
+    position: absolute;
+}
+
+h1{
+    font-size: 3em;
+    color: rgb(167, 118, 126);
+}
+
+#buttongroup{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    font-size: 1.2em;
+    font-weight: 200;
+    border-radius: 50px;
+    border: pink;
+    cursor: pointer;
+    box-shadow: 0 2px 4px pink;
+}
+
+button:nth-child(1){
+    margin-left: -200px;
+    background-color: pink;
+}
+button:nth-child(2){
+    margin-left: 200px;
+}
+
